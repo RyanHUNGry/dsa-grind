@@ -31,4 +31,7 @@ Solution:
     1. Set left and right pointers
     2. Calculate area and check for max
     3. Move the smaller pointer
+
+Time complexity:
+    1. O(n)
 """

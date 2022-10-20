@@ -57,4 +57,7 @@ Solution:
     3. For top, return the last element in the list
     4. For pop, remove the last element in the list; if this item is also the top element in the min stack, then we remove it from there as well
     5. For getMin, return the top of the min stack
+
+Time complexity:
+    1. O(1)
 """
