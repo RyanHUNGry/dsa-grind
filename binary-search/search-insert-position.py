@@ -30,4 +30,8 @@ class Solution(object):
 Solution:
     1. If the target exists in nums, this is just standard binary search
     2. We will modify our breaking case so that we return low, because that is where our missing element will go
+
+Time complexity:
+    1. Let n be the length of nums
+    2. O(logn)
 """

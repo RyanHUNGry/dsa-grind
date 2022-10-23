@@ -31,4 +31,8 @@ Solution:
     1. Create a recursive function that takes in nums, target, low, and high
     2. Call the recursive function with nums, target, 0, and len(nums) - 1
     3. Keep doing this until your low pointer is greater than high pointer, which is your breaking condition
+
+Time complexity:
+    1. Let n be the length of nums
+    2. O(logn)
 """
