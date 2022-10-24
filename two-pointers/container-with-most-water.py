@@ -33,5 +33,6 @@ Solution:
     3. Move the smaller pointer
 
 Time complexity:
+    1. Let n be the length of height
     1. O(n)
 """

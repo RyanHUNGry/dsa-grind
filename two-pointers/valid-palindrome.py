@@ -28,4 +28,8 @@ Solution:
     2. Check LETTERS at the pointers
     3. If letters are not equal, return false
     4. After checking letters, move both pointers inwards
+
+Time complexity:
+    1. Let n be the length of s
+    2. O(n)
 """

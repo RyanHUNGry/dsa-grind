@@ -38,6 +38,6 @@ Solution:
     4. Increment right pointer until we are at the last stock in the list
 
 Time complexity:
-    1. n is the length of prices
+    1. Let n be the length of prices
     2. O(n)
 """
