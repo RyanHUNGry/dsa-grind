@@ -10,12 +10,15 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+        # Create set of numbers
         hashset = set(nums) 
         longest_consecutive = 1
 
+        # For each number in the list
         for num in nums:
             curr = num
             consecutive = 1
+            # Check if that number is the start of a sequence by checking if there isn't a left neighbor and if there is a right neighbor 
             while num - 1 not in hashset and curr + 1 in hashset:
                 consecutive += 1
                 curr += 1

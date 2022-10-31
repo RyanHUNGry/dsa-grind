@@ -11,6 +11,7 @@ class Solution(object):
         :rtype: List[List[str]]
         """
         hashmap = {}
+        
         for str in strs:
             counts = [0 for i in range(26)]
             # Incrementing counts based on ASCII value of character
