@@ -1,5 +1,7 @@
 """
 Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+
+# of solves: 1
 """
 
 class Solution(object):
@@ -9,6 +11,8 @@ class Solution(object):
         :rtype: bool
         """
         hashset = set()
+
+        # O(n)
         for num in nums:
             if num in hashset:
                 return True

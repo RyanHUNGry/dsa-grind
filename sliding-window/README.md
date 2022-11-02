@@ -10,3 +10,4 @@ General idea:
 - Use a for loop to expand window and also to act as right pointer
 - Expand window and add element or compute some sort of value with it
 - Shrink window if you have reached a certain constraint or if your window size is fixed and you have grown too large
+- Compute or check length after you are done adding and subtracting from the window
