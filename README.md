@@ -1,4 +1,2 @@
-# dsa-grind
-Data structures and algorithms practice; repo to keep progress.
-
-Former sigma Java leetcoder; current ordinary Python problem solver.
+# Data Structures and Algorithms Practice:
+This repository serves as a progress tracker for my data structures and algorithms practice.
