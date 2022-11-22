@@ -30,7 +30,8 @@ class Solution(object):
 Solution:
     1. Run a DFS function that takes in a depth argument
     2. This depth argument will keep track of how deep we are in the tree at each level
-    3. The function will compare depths and return the maximum
+    3. The function will traverse the tree to the very left, then to the very right and return the depth of the ends of the branches
+    4. We will then compare which branch has the larger depth and return it
 
 Time complexity:
     1. Let n be the number of nodes in the tree
