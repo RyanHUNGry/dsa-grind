@@ -41,6 +41,6 @@ Time complexity:
     2. O(n) --> we need to traverse through each node recursively
 
 Space complexity: 
-    1. Let n be the number of nodes in the tree
-    2. O(n) --> happens when we are reversing an imbalanced tree, else o(h)
+    1. Let h be the height of the tree
+    2. O(h)
 """
